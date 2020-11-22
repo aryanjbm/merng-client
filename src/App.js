@@ -9,6 +9,8 @@ import { AuthProvider } from "./context/auth";
 import { Container } from "semantic-ui-react";
 import AuthRoute from "./util/AuthRouter";
 import SinglePost from "./components/SinglePost";
+import React from "react";
+
 function App() {
   return (
     <AuthProvider>
